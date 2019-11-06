@@ -1,0 +1,48 @@
+body {
+    background-image: url(4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+     display: inline-block;
+     margin-top: 15%;
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 6vw;
+     color: peru;
+     text-shadow: -2px -2px 4px #000;
+}
+
+.container {
+    margin-left: 10%;
+    display: inline-block;
+}
+
+p{
+    font-size: 2.47vw;
+    font-family: sans-serif;
+    color: white;
+    border-right: 4px solid #fff;
+    margin-top: -20%;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 10s steps(27) forwards, blink-caret .8s step-end infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink-caret {
+    from, to {border-color: transparent;}
+    50% {border-color: white;}
+}
+
+@keyframes typing {
+    0% {width: 0%;}
+    30%{width: 100%;}
+    80%{width: 100%;}
+    90%{width: 0%;}
+    100%{width: 0%;}
+}
